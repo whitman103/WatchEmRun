@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "watchemrun"
+version = "0.1.0"
+description = ""
+authors = ["whitman103 <64374101+whitman103@users.noreply.github.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gpxpy = "^1.6.2"
+matplotlib = "^3.9.0"
+pint = "^0.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
